@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: deploy-conversao-temperatura
+spec:
+  replicas: 6
+  selector:
+    matchLabels:
+      app: conversao-temperatura
+  template:
+    metadata:
+      labels:
+        app: conversao-temperatura
+    spec:
+      containers:
+      - name: conversao-temperatura
+        image: afmaia/conversao-temperatura:v1
+        ports:
+        - containerPort: 8080
