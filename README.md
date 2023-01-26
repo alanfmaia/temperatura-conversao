@@ -20,8 +20,8 @@ com o resultado efetuar o push<br>
 >docker push <***nome da imagem com a tag***>
 
 
-# Deploy kUBERNETES
-###***Acrescentado um diretorio com os manifestos yaml para o deploy***
+# Deploy Kubernetes
+### ***Acrescentado um diretorio com os manifestos yaml para o deploy***
 
 
 
